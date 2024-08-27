@@ -1,0 +1,630 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('./fonts/Futura/FUTURA45LIGHT.TTF') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./fonts/Futura/FUTURA55REGULAR.TTF') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./fonts/Futura/FUTURA65MEDIUM.TTF') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./fonts/Futura/FUTURA75BOLD.TTF') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Cormorant Garamond Fonts */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('./fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('./fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('./fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('./fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('./fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Neue Haas Grotesk Display Pro Fonts */
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('./fonts/Neue-haas-grotesk-display-pro/NeueHaasDisplayXXThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('./fonts/Neue-haas-grotesk-display-pro/NeueHaasDisplayXThin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('./fonts/Neue-haas-grotesk-display-pro/NeueHaasDisplayThin.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+*{
+    width: auto;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.img_logo{
+    width: 138px;
+    height: 34px;
+}
+
+#background_nav{
+    background-color: rgb(249,247,243);
+}
+
+
+.nav_estilo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+    font-family: 'Futura';
+    font-weight: 300;
+}
+
+.img_header{
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.img_header img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    object-position: center -200px; 
+}
+
+.img_main{
+    width: 200px;
+    height: 250px;
+}
+
+.circulo{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 220px; 
+    height: 220px;  
+}
+
+.titulo{
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.back{
+    background-color: #F2EDE7;
+}
+
+.card_main{
+    width: 295px;
+    height: auto;
+}
+
+.text_decoration a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 400;
+}
+
+#margem_logo{
+    padding-right: 90px!important;
+}
+
+button{
+    font-size: 16px; 
+    font-family: 'Futura', sans-serif;
+    background-color: transparent;
+    border: 1px solid black;
+   
+}
+
+.logo_footer{
+    width: 180px;
+}
+
+.fonte_copyright{
+    font-size: 12px;
+    font-family: 'Neue Haas Grotesk Display Pro';
+}
+
+.nav_footer > a{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    color: black;
+    font-weight: 100;
+}
+
+
+.fonte_footer{
+    font-family:'Cormorant Garamond', sans-serif;
+    font-weight: 300;
+}
+
+footer{
+    background-color: #F9F7F3;
+}
+
+input[type="email"]{
+    width: 35%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #F9F7F3;
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+    
+.font_corm{
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-weight: 300;
+}
+
+.ajuste_footer{
+    padding-bottom: 60px!important;
+}
+
+.padding{
+    padding-left: 101px!important;
+}
+
+#fonte{
+    font-size: 20px;
+}
+
+.background_menu{
+    background-color: #F2EDE7;
+    width: 50%;
+    height: 469px;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 300;
+    align-items: left; 
+    flex-direction: column;
+    text-align: left; 
+}
+
+.img_menu{
+    width: 50%;
+    height: 469px;
+    overflow: hidden; 
+    position: relative;
+   
+}
+
+.cor_fonte{
+    color: #2C2C2C;
+}
+
+.h1_fonte{
+    font-size: 40px;
+    color: rgba(44, 44, 44, 0.76);
+
+}
+
+.img_menu img{
+  width: 100%; 
+  height:469px;
+  position: relative;
+  object-fit: cover; 
+  object-position: top; 
+    
+}
+
+.gap_img{
+    gap: 100px!important;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.gap_img img{
+    width: 130px;
+    height: 122px;
+}
+
+.gap_img > a > p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 22px;
+    color: #2C2C2CC2;  
+}
+
+.gap_img > a{
+    text-decoration: none;
+}
+
+select{
+    border: none;
+    font-family: 'Futura';
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+
+.detalhes_fonte{
+    font-size: 14px;
+    font-family: 'Futura';
+    font-weight: 400px;
+}
+
+.img_sobre1{
+    width: 100%;
+ 
+}
+
+.h1_artigo{
+    font-family: 'Cormorant Garamond';
+    font-size: 44px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(44, 44, 44, 0.76);
+
+}
+
+.p_artigo{
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    color: rgba(44, 44, 44, 0.76);
+}
+
+.preco{
+    font-family: 'Futura';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36.22px;
+    text-align: left;
+    color: rgba(44, 44, 44, 0.76);
+
+}
+
+.review{
+    font-family: 'Futura';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.93px;
+    text-decoration: none;
+    color: rgba(44, 44, 44, 0.76);
+}
+
+
+
+.size{
+    font-family: 'Futura';
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(44, 44, 44, 0.76);
+}
+
+
+.img_artigo{
+    width:757px;
+    height: 821px;
+}
+
+.img_artigo_pequena{
+    width: 175px;
+    height: 175px;
+}
+
+.button_tamanho{
+    width: 117px;
+    height: 47px;
+    padding: 10px, 22px, 10px, 22px;
+    background-color: rgba(236, 234, 226, 1);
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.button_adicionar{
+    width: 100%;
+    height: 70px;
+    top: 936px;
+    left: 971px;
+    padding: 22px 34px 22px 34px;
+    gap: 10px;
+    border: 0.8px 0px 0px 0px;
+    background-color: rgba(44, 44, 44, 0.76);
+    color:white;
+    font-size: 'Futura';
+    font-weight: 400px;
+    font-size: 18px;    
+    
+}
+
+.custom-padding {
+    padding-left: 95px!important;
+
+}
+
+.padding-text{
+    padding-right: 95px!important;
+    padding-left: 95px!important;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.descricao-container {
+    margin: 20px;
+}
+
+.descricao-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.descricao-header img {
+    transition: transform 0.3s;
+}
+
+/* Esconde a descrição por padrão */
+.descricao-content {
+    display: none;
+    margin-top: 10px;
+    
+}
+
+
+
+.estilo_descricao{
+    font-family:'Futura';
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+.traco{
+    border-top: 1px solid  rgba(44, 44, 44, 0.76);;
+}
+
+.estilo_descricao_p{
+    font-size: 10px;
+}
+
+/* Quando o checkbox estiver marcado, mostra a descrição */
+input[type="checkbox"]:checked ~ .descricao-content {
+    display: block;
+}
+
+/* Gira a seta quando o checkbox estiver marcado */
+input[type="checkbox"]:checked ~ .descricao-header img {
+    transform: rotate(90deg);
+}
+
+
+
+.wish_list{
+    font-family: 'Futura';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.28px;
+    text-align: left;
+    color: rgba(44, 44, 44, 0.76);
+
+}
+
+
+
+
+
+/*reviews
+
+.comments-display,
+.comment-form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.comments-display h2,
+.comment-form h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.comment-item {
+    margin-bottom: 30px;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-stars img {
+    width: 100px;
+}
+
+.comment-user {
+    font-weight: bold;
+}
+
+.comment-date {
+    font-weight: normal;
+    color: #888;
+}
+
+.comment-text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+eviews*/
+
+
+.img_sobre{
+    width: 100%;
+}
+
+.img_phome{
+    width: 100%;    
+    height: 647px;
+}
+
+.texto_sobre{
+    font-family: 'Cormorant Garamond';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.h1_sobre{
+    font-family: 'Futura';
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+form .input_message {
+    border-radius: 6px;
+    background-color: rgba(248, 247, 243, 1);
+    font-family: 'Futura', sans-serif;
+    font-size: 20px;
+    height: 44px;
+    font-weight: 300;
+
+}
+
+#message {
+    Padding: 15px, 22px, 15px, 22px;
+    Gap:10px;
+    height: 150px;
+}
+
+.h1_input{
+    font-family: 'Cormorant Garamond';
+    font-size: 40px;
+    font-weight: 400;
+    color:rgba(44, 44, 44, 0.76)
+}
+
+.botao_value{
+    font-family: 'Futura';
+    font-size: 16px;
+    font-weight: 300;
+    width: 159px;
+    height: 46px;
+    background-color: rgba(176, 176, 160, 1);
+    border-radius: 6px;
+    border: none;
+}
+
+.espaco_contactos{
+    padding-right: 50px!important;
+}
+
+.fonte_contactos{
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(44, 44, 44, 0.76);
+}
+
+.padding_contactos{
+
+    padding-bottom: 150px!important;
+}
